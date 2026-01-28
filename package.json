@@ -1,0 +1,14 @@
+{
+  "name": "flow-chat",
+  "version": "1.0.0",
+  "description": "Chat interface for Flow language - REPL with C++ compilation",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build step needed'"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
